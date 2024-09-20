@@ -3,4 +3,12 @@ body {
 }
 .card {
     margin-bottom: 20px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
 }
